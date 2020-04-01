@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header{
+	height: 50px;
+	width: 100%;
+}
+main{
+	width: 960px;
+	margin: 0 auto;
+}
+img{
+	width: 280px;
+	margin: 5px 10px;
+	height: 150px;
+}
+.item{
+	border:1px solid  #eee;
+	font-weight: bold;
+	width: 300px;
+	float: left;
+	position:relative;
+}
+.item:nth-child(2){
+		margin: 0 30px;
+}
+.items{
+	background-color:#ff9a4b;
+	position: absolute;
+	top:0;
+	left:0;
+	color: #fff;
+}
+footer{
+	width: 50px;
+}
