@@ -75,10 +75,10 @@ footer{
 		float: none;
 		width: 90%;
 		padding:0 5%;
-		margin: 0;
+		margin: 15px;
 	}
 	.item:nth-child(2){
-		margin: 0;
+		margin: 15px;
 	}
 	main, header, footer{
 		width: 100%;
